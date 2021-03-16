@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="robot_name" default="iiwa"/>
+
+    <!--Put in a namespace to allow many instances to run-->
+  <group ns="$(arg robot_name)" >
+        <!-- Given the published joint states, publish tf for the robot links -->
+        <node name="sidelift" pkg="iiwa_moveit_programm" type="sidelift" output="screen" />
+  </group>
+</launch>

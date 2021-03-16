@@ -1,0 +1,8 @@
+[ 25%] Built target check_collision
+[ 25%] Built target pick_place
+[ 37%] Built target add_collision_object
+[ 50%] Built target test_custom_node
+[ 62%] Built target test_random_node
+[ 75%] Built target remove_collision_objct
+[ 87%] Built target pick_place_action
+[100%] Built target attach_detach_object

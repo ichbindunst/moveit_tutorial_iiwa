@@ -1,0 +1,11 @@
+[31m[1mCMake Error[0m at /home/yao/ws_moveit/src/iiwa/iiwa_moveit_programm/CMakeLists.txt:156 (add_executable):
+  Cannot find source file:
+
+    src/moveit_random_demo.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: moveit_random_demo
+CMake Error: Cannot determine link language for target "moveit_random_demo".

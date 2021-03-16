@@ -1,0 +1,1 @@
+/home/yao/ws_moveit/devel/.private/seven_dof_arm_config/share/seven_dof_arm_config/cmake/seven_dof_arm_configConfig.cmake

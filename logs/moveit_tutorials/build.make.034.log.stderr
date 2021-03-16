@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/home/yao/ws_moveit/src/moveit_tutorials/doc/move_group_interface/src/show_path.cpp', needed by 'doc/move_group_interface/CMakeFiles/show_path.dir/src/show_path.cpp.o'.  Stop.
+make[1]: *** [doc/move_group_interface/CMakeFiles/show_path.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

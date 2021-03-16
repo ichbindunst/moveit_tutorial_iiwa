@@ -1,0 +1,8 @@
+prefix=/home/yao/ws_moveit/install
+
+Name: iiwa_moveit_programm
+Description: Description of iiwa_moveit_programm
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy moveit_core moveit_ros_planning_interface

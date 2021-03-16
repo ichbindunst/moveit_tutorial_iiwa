@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: iiwa_description
+    relative_path: urdf/iiwa7.urdf.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/iiwa7.srdf
+  CONFIG:
+    author_name: leo Li
+    author_email: leo.li.3821@gmail.com
+    generated_timestamp: 1597750400

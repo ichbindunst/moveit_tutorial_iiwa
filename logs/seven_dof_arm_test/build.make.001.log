@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target test_custom_node[0m
+[35m[1mScanning dependencies of target check_collision[0m
+[35m[1mScanning dependencies of target add_collision_object[0m
+[35m[1mScanning dependencies of target pick_place[0m
+[35m[1mScanning dependencies of target remove_collision_objct[0m
+[35m[1mScanning dependencies of target pick_place_action[0m
+[35m[1mScanning dependencies of target attach_detach_object[0m
+[35m[1mScanning dependencies of target test_random_node[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/pick_place.dir/src/pick_place.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/remove_collision_objct.dir/src/remove_collision_objct.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/attach_detach_object.dir/src/attach_detach_object.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/add_collision_object.dir/src/add_collision_object.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/test_custom_node.dir/src/test_custom.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/test_random_node.dir/src/test_random.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/check_collision.dir/src/check_collision.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pick_place_action.dir/src/pick_place_action.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable /home/yao/ws_moveit/devel/.private/seven_dof_arm_test/lib/seven_dof_arm_test/test_random_node[0m
+[ 62%] [32m[1mLinking CXX executable /home/yao/ws_moveit/devel/.private/seven_dof_arm_test/lib/seven_dof_arm_test/check_collision[0m
+[ 75%] [32m[1mLinking CXX executable /home/yao/ws_moveit/devel/.private/seven_dof_arm_test/lib/seven_dof_arm_test/add_collision_object[0m
+[ 75%] [32m[1mLinking CXX executable /home/yao/ws_moveit/devel/.private/seven_dof_arm_test/lib/seven_dof_arm_test/remove_collision_objct[0m
+[ 81%] [32m[1mLinking CXX executable /home/yao/ws_moveit/devel/.private/seven_dof_arm_test/lib/seven_dof_arm_test/test_custom_node[0m
+[ 87%] [32m[1mLinking CXX executable /home/yao/ws_moveit/devel/.private/seven_dof_arm_test/lib/seven_dof_arm_test/attach_detach_object[0m
+[ 93%] [32m[1mLinking CXX executable /home/yao/ws_moveit/devel/.private/seven_dof_arm_test/lib/seven_dof_arm_test/pick_place[0m
+[100%] [32m[1mLinking CXX executable /home/yao/ws_moveit/devel/.private/seven_dof_arm_test/lib/seven_dof_arm_test/pick_place_action[0m
+[100%] Built target remove_collision_objct
+[100%] Built target add_collision_object
+[100%] Built target attach_detach_object
+[100%] Built target test_random_node
+[100%] Built target check_collision
+[100%] Built target test_custom_node
+[100%] Built target pick_place
+[100%] Built target pick_place_action

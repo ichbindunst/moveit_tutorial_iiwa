@@ -1,0 +1,6 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/seite_pull.dir/src/seite_pull.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/random.dir/src/random.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/yao/ws_moveit/devel/.private/iiwa_moveit_programm/lib/iiwa_moveit_programm/random[0m
+[ 75%] Built target random
+[100%] [32m[1mLinking CXX executable /home/yao/ws_moveit/devel/.private/iiwa_moveit_programm/lib/iiwa_moveit_programm/seite_pull[0m
+[100%] Built target seite_pull

@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /home/yao/ws_moveit/src/seven_dof_arm_test/CMakeLists.txt:152 (add_dependencies):
+  The dependency target "seven_dof_arm_test_generate_messages_cpp" of target
+  "test_random_node" does not exist.
+
+
+make: *** [cmake_check_build_system] Error 1

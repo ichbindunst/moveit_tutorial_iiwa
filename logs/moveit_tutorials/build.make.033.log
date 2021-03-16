@@ -1,0 +1,82 @@
+[  6%] Built target ros_api_tutorial
+[ 13%] Built target robot_model_and_robot_state_tutorial
+[ 20%] Built target planning_scene_tutorial
+[ 26%] Built target planning_scene_ros_api_tutorial
+[ 33%] Built target motion_planning_api_tutorial
+[ 40%] Built target move_group_interface_tutorial
+[ 46%] Built target motion_planning_pipeline_tutorial
+[ 60%] Built target interactivity_utils
+[35m[1mScanning dependencies of target show_path[0m
+[ 66%] Built target state_display_tutorial
+[ 73%] Built target bag_publisher_maintain_time
+[ 80%] Built target pick_place_tutorial
+[ 86%] Built target visualizing_collisions_tutorial
+[ 93%] Built target cylinder_segment
+[ 96%] [32mBuilding CXX object doc/move_group_interface/CMakeFiles/show_path.dir/src/show_path.cpp.o[0m
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/urdf/model.h:47[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/robot_model/robot_model.h:43[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/robot_state/robot_state.h:41[m[K,
+                 from [01m[K/opt/ros/kinetic/include/moveit/move_group_interface/move_group_interface.h:43[m[K,
+                 from [01m[K/home/yao/ws_moveit/src/moveit_tutorials/doc/move_group_interface/src/show_path.cpp:1[m[K:
+[01m[K/home/yao/ws_moveit/src/moveit_tutorials/doc/move_group_interface/src/show_path.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [-Wformat-security]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:112:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO_NAMED(name, ...) ROS_LOG(::ros::console::levels::Info, std::string(ROSCONSOLE_NAME_PREFIX) + "." + name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/home/yao/ws_moveit/src/moveit_tutorials/doc/move_group_interface/src/show_path.cpp:42:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_NAMED[m[K’
+   ROS_INFO_NAMED("Reference frame: %s", move_group.getPlanningFrame().c_str());
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [-Wformat-security]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:112:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO_NAMED(name, ...) ROS_LOG(::ros::console::levels::Info, std::string(ROSCONSOLE_NAME_PREFIX) + "." + name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/home/yao/ws_moveit/src/moveit_tutorials/doc/move_group_interface/src/show_path.cpp:43:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_NAMED[m[K’
+   ROS_INFO_NAMED("End effector link: %s", move_group.getEndEffectorLink().c_str());
+[01;32m[K   ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:112:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_INFO_NAMED(name, ...) ROS_LOG(::ros::console::levels::Info, std::string(ROSCONSOLE_NAME_PREFIX) + "." + name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/home/yao/ws_moveit/src/moveit_tutorials/doc/move_group_interface/src/show_path.cpp:60:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO_NAMED[m[K’
+   ROS_INFO_NAMED("Visualizing plan 1 as trajectory line");
+[01;32m[K   ^[m[K
+doc/move_group_interface/CMakeFiles/show_path.dir/build.make:62: recipe for target 'doc/move_group_interface/CMakeFiles/show_path.dir/src/show_path.cpp.o' failed
+make[2]: *** [doc/move_group_interface/CMakeFiles/show_path.dir/src/show_path.cpp.o] Error 1
+CMakeFiles/Makefile2:4566: recipe for target 'doc/move_group_interface/CMakeFiles/show_path.dir/all' failed
+make[1]: *** [doc/move_group_interface/CMakeFiles/show_path.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

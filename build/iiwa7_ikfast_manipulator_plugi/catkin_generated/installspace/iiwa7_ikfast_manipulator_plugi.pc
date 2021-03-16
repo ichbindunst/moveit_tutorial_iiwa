@@ -1,0 +1,8 @@
+prefix=/home/yao/ws_moveit/install
+
+Name: iiwa7_ikfast_manipulator_plugi
+Description: Description of iiwa7_ikfast_manipulator_plugi
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

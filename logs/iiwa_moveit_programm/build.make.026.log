@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target sidelift[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/sidelift.dir/src/sidelift.cpp.o[0m
+[ 50%] Built target random
+[ 83%] Built target seite_pull
+[100%] [32m[1mLinking CXX executable /home/yao/ws_moveit/devel/.private/iiwa_moveit_programm/lib/iiwa_moveit_programm/sidelift[0m
+[100%] Built target sidelift

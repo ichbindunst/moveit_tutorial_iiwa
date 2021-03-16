@@ -1,0 +1,77 @@
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/yao/ws_moveit/devel/.private/seven_dof_arm_test
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/yao/ws_moveit/devel;/opt/ros/kinetic
+[36m--[0m This workspace overlays: /home/yao/ws_moveit/devel;/opt/ros/kinetic
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.12", minimum required is "2")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python2
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/yao/ws_moveit/build/seven_dof_arm_test/test_results
+[36m--[0m Found gtest sources under '/usr/src/gmock': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/gmock': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python2 (found version "2.7.12")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.20
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Boost version: 1.58.0
+[36m--[0m Found the following Boost libraries:
+[36m--[0m   system
+[36m--[0m Configuring done
+CMake Warning (dev) at CMakeLists.txt:181 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "seven_dof_arm_test_generate_messages_cpp" of target
+  "check_collision" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:131 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "seven_dof_arm_test_generate_messages_cpp" of target
+  "test_custom_node" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:169 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "seven_dof_arm_test_generate_messages_cpp" of target
+  "pick_place" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:157 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "seven_dof_arm_test_generate_messages_cpp" of target
+  "remove_collision_objct" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:143 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "seven_dof_arm_test_generate_messages_cpp" of target
+  "add_collision_object" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:113 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "seven_dof_arm_test_generate_messages_cpp" of target
+  "test_random_node" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/yao/ws_moveit/build/seven_dof_arm_test

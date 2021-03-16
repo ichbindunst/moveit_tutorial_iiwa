@@ -1,0 +1,11 @@
+Symlinking /home/yao/ws_moveit/devel/share/seven_dof_arm_test/cmake/seven_dof_arm_testConfig.cmake
+Symlinking /home/yao/ws_moveit/devel/share/seven_dof_arm_test/cmake/seven_dof_arm_testConfig-version.cmake
+Symlinking /home/yao/ws_moveit/devel/lib/pkgconfig/seven_dof_arm_test.pc
+Symlinking /home/yao/ws_moveit/devel/lib/seven_dof_arm_test/attach_detach_object
+Symlinking /home/yao/ws_moveit/devel/lib/seven_dof_arm_test/test_custom_node
+Symlinking /home/yao/ws_moveit/devel/lib/seven_dof_arm_test/remove_collision_objct
+Symlinking /home/yao/ws_moveit/devel/lib/seven_dof_arm_test/test_random_node
+Symlinking /home/yao/ws_moveit/devel/lib/seven_dof_arm_test/add_collision_object
+Symlinking /home/yao/ws_moveit/devel/lib/seven_dof_arm_test/pick_place
+Symlinking /home/yao/ws_moveit/devel/lib/seven_dof_arm_test/check_collision
+Symlinking /home/yao/ws_moveit/devel/lib/seven_dof_arm_test/pick_place_action

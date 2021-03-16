@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target random[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/random.dir/src/random.cpp.o[0m
+[35m[1mScanning dependencies of target seite_pull[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/seite_pull.dir/src/seite_pull.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/yao/ws_moveit/devel/.private/iiwa_moveit_programm/lib/iiwa_moveit_programm/seite_pull[0m
+[100%] [32m[1mLinking CXX executable /home/yao/ws_moveit/devel/.private/iiwa_moveit_programm/lib/iiwa_moveit_programm/random[0m
+[100%] Built target random
+[100%] Built target seite_pull

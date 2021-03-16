@@ -1,0 +1,1 @@
+/home/yao/ws_moveit/devel/.private/iiwa7_ikfast_manipulator_plugi/share/iiwa7_ikfast_manipulator_plugi/cmake/iiwa7_ikfast_manipulator_plugiConfig.cmake
